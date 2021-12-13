@@ -124,6 +124,6 @@ STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'profiles_api.UserProfile'
 
-AUTHENTICATION_BACKENDS = (
-    ('django.contrib.auth.backends.ModelBackend'),
-)
+#AUTHENTICATION_BACKENDS = (
+#    ('django.contrib.auth.backends.ModelBackend'),
+#)
